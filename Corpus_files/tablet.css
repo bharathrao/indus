@@ -1,0 +1,396 @@
+/*
+#------------------------------------------------------------------------
+# University - May Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2014 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+small {
+	font-size: 90%;
+}
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 28px;	
+}
+h3 {
+	font-size: 24px;
+}
+/* Containers */
+#gkPageContent > div[data-inset-pos="left"] {
+	padding-left: 0!important;
+}
+#gkPageContent > div[data-inset-pos="right"] {
+	padding-right: 0!important;
+}
+div[data-inset-pos="left"] #gkContentWrap {
+	padding: 0 0 0 25px!important;
+}
+div[data-inset-pos="right"] #gkContentWrap {
+	padding: 0 25px 0 0!important;
+}
+#gkInset {
+	margin-top: -10px;
+	padding: 25px 15px;
+}
+#gkInset .box:first-child .gkBanner {
+	margin: -25px -15px 20px -15px;
+}
+#gkContent, 
+#gkSidebar {
+	width: 100% !important;
+}
+#gkContentWrap {
+	margin-top: 20px;
+	padding: 0!important;
+}
+#gkSidebar .box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px!important;
+}
+#gkSidebar {
+	padding: 0!important;
+}
+#gkSidebar .box:first-child {
+	padding-top: 10px!important;
+}
+#gkSidebar .box {
+	border-top: none!important;
+	float: left;
+	margin-top: 0!important;
+	margin-bottom: 30px!important;
+	width: 50%;
+}
+#gkSidebar.gkOnlyOne .box,
+#gkInset.gkOnlyOne .box {
+	width: 100%!important;
+}
+#gkInset {
+	padding-left: 15px;
+}
+.itemBody.gkInsetLeft + #gkInset {
+	padding-left: 0;
+	padding-right: 15px;
+}
+#gkSidebar .box:nth-child(2n+1) {
+	clear: both!important;
+}
+
+/* Limitation suffixes */
+.onlydesktop {
+	display: none!important;
+}
+.notablet {
+	display: none!important;
+}
+.onlytablet {
+	display: block!important;
+}
+.onlymobile {
+	display: none!important;
+}
+.notablet.nomobile {
+	display: none!important;
+}
+
+/* Fix for the contact page */
+.contact .contact-image {
+	float: left !important;
+}
+.contact .contact-address {
+	clear: both !important;
+	padding-top: 20px !important;
+}
+.contact .contact-form input[type="text"],
+.contact .contact-form input[type="email"],
+.contact .contact-form textarea {
+	width: 95% !important;
+}
+
+/* K2 edit popup */
+#sbox-window,
+#sbox-window iframe {
+	width: 720px!important;
+	max-width: 720px!important;
+	left: 10px!important;
+}
+
+/* menu */
+#gkMobileMenu {
+	float: right;
+	margin: 24px 0 0 0;
+	position: relative;
+}
+.gkMenuOverlay + #gkMobileMenu {
+	display: none!important;
+}
+#gkExtraMenu {
+	display: none!important;
+}
+#gkMainMenu {
+	display: none;
+}
+#gkMobileMenu {
+	color: #111;
+	display: block!important;
+	font-size: 32px;
+	height: 44px;
+	line-height: 44px;
+	margin: 10px 0 9px 0!important;
+	position: relative;
+	text-align: center;
+	width: 44px;
+}
+#gkMobileMenu i {
+	color: #fff;
+	height: 44px;
+	padding: 0!important;
+	position: relative;
+	right: 12px;
+	text-align: center;
+	width: 44px;
+}
+
+/* top/bottom modules */
+
+/* 4-column layout */
+body .gkCols4 .box {
+	margin-bottom: 30px!important;
+}
+body .gkCols4 .box.gkmod-1 {
+	width: 100%;	
+}
+body .gkCols4 .box.gkmod-2 {
+	width: 50%;
+}
+body .gkCols4 .box.gkmod-3 {
+	width: 50%;
+}
+body .gkCols4 .box.gkmod-4,
+body .gkCols4 .box.gkmod-more {
+	width: 50%;
+}
+body .gkCols4 .box:nth-child(2n+1) {
+	clear: both;
+}
+body .gkCols4 .box.gkmod-more.gkmod-last-1:last-child {
+	width: 100%!important;
+}
+body .gkCols4 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+	width: 50%!important;
+}
+body .gkCols4 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 50%!important;
+}
+
+/* 6-column layout */
+body .gkCols6 .box {
+	margin-bottom: 30px!important;
+}
+body .gkCols6 .box.gkmod-1 {
+	width: 100%;	
+}
+body .gkCols6 .box.gkmod-2 {
+	width: 50%;
+}
+body .gkCols6 .box.gkmod-3 {
+	width: 33.3%;
+}
+body .gkCols6 .box.gkmod-4,
+body .gkCols6 .box.gkmod-more {
+	width: 33.3%;
+}
+body .gkCols6 .box.gkmod-5,
+body .gkCols6 .box.gkmod-more {
+	width: 33.3%;
+}
+body .gkCols6 .box.gkmod-6,
+body .gkCols6 .box.gkmod-more {
+	width: 33.3%;
+}
+body .gkCols6 .box:nth-child(3n+1) {
+	clear: both;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-1:last-child {
+	width: 100%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+	width: 50%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 33.3%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-4:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(4) {
+	width: 33.3%!important;
+}
+body .gkCols6 .box.gkmod-more.gkmod-last-5:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(4),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
+	width: 33.3%!important;
+}
+
+.items-row > div {
+	margin-bottom: 50px;
+	padding: 0!important;
+}
+
+/* Suffixes and other elements */
+
+/* Page elements */
+#gkMainbody {
+	margin-bottom: 30px;
+}
+.gkCols[data-cols="4"] > div,
+.gkCols[data-cols="5"] > div { 
+	margin-bottom: 30px;
+	width: 50%; 
+}
+.gkCols[data-cols="4"] > div:nth-child(2n+1),
+.gkCols[data-cols="5"] > div:nth-child(2n+1)  {
+	clear: both;
+}
+#k2Container .itemsContainerWrap article header h2 {
+	font-size: 18px;
+	line-height: 24px;
+}
+article header h1, 
+article header h2 {
+	font-size: 32px;
+}
+article header li:before {
+	display: none;
+}
+article header li {
+	padding-right: 20px;
+}
+article header li:last-child {
+	padding-right: 0;
+}
+.pagination ul li a, 
+.pagination ul li span {
+	margin: 3px 7px 3px 0;
+}
+
+/* Frontpage elements */
+.box.parallax {
+	background-attachment: scroll;
+}
+.box.transparent {
+	padding: 20px;
+}
+.box.transparent li {
+	padding: 10px 0;
+}
+#gkHeaderLeft .header {
+	display: none!important;
+}
+.csstransforms #gkHeaderLeft .header + .content {
+	padding-left: 0px;
+}
+.gkNspPM-EventsList > div {
+	margin: 0;
+}
+.gkNspPM-EventsList time {
+	left: 5px;
+}
+.gkNspPM-EventsList h3 {
+	font-size: 13px;
+}
+.gkNspPM-EventsList > div > time + div {
+	padding-left: 64px;
+}
+.gkNspPM-EventsList .gkEventsListProgress {
+	display: none;
+}
+.gkIsWrapper-gk_university figcaption h2 {
+	font-size: 32px;
+	line-height: 40px;
+}
+.gkIsWrapper-gk_university figcaption p {
+	margin: 10px 0;
+}
+.gkInformation {
+	padding: 12px 0;
+}
+.gkInformation > div > strong {
+	font-size: 11px;
+	padding: 5px 10px 5px 50px;
+}
+.gkInformation > div > input {
+	margin-left: 0.5%;
+}
+.gkInformation > div > input {
+	width: 18%;
+}
+.gkInformation > div > input[type="submit"] {
+	width: 22.5%;
+}
+.frontpage #gkPageContent {
+	padding: 30px 0;
+}
+.box.parallax {
+	padding: 50px 0!important;
+}
+.darkbar .nspHeader {
+	padding: 30px;
+}
+.darkbar .nspList > li > div {
+	padding: 10px;
+}
+.gkTweet {
+	padding: 15px 25px;
+}
+#gkBottom1.gkSingleModule, 
+#gkBottom2.gkSingleModule, 
+#gkBottom3.gkSingleModule, 
+#gkBottom4.gkSingleModule, 
+#gkBottom5.gkSingleModule {
+	padding: 50px 0;
+}
+.gkNspPM-JomSocialPhotos[data-cols="1"] figure,
+.gkNspPM-JomSocialPhotos[data-cols="2"] figure {
+	width: 420px!important;
+}
+.gkNspPM-JomSocialPhotos[data-cols="3"] figure {
+	width: 280px!important;
+}
+.gkNspPM-JomSocialPhotos[data-cols="4"] figure {
+	width: 205px!important;
+}
+.gkNspPM-JomSocialPhotos figcaption {
+	padding: 22px;
+}
+#gkMainbodyBottom {
+	margin-bottom: 30px;
+}
+
+/* JomSocial */
+.jomsocial #gkPageContent {
+	padding: 40px;
+}
+.cSidebar {
+	padding-left: 0;
+}
+.box.app-box, 
+#community-wrap .app-box {
+	border-left: none;
+	margin: 0 0 30px;
+	padding: 0 16px 10px;
+}

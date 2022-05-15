@@ -1,0 +1,72 @@
+.ajax-search {
+  position: relative;
+}
+.ajax-search input[type="search"] {
+  width: 186px;
+  padding-right: 22px !important;
+  background: transparent no-repeat;
+}
+.ajax-search input.loading {
+  background: transparent url("../images/loading.gif") no-repeat scroll 98% 50%;
+}
+.ajax-search .results-box:empty {
+  height: 0;
+  -moz-box-shadow: #FFFFFF 0 0;
+  -webkit-box-shadow: #FFFFFF 0 0;
+  box-shadow: #FFFFFF 0 0;
+}
+.ajax-search .results-box {
+  z-index: 99;
+  position: absolute;
+  top: 32px;
+  width: 100%;
+  /*
+  height: 300px;
+  overflow: scroll;
+  */
+  background: rgba(254, 254, 254, 0.9);
+  border: 1px solid #fefefe;
+  -moz-box-shadow: #999 2px 2px 14px;
+  -webkit-box-shadow: #999 2px 2px 14px;
+  box-shadow: #999 2px 2px 14px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out;
+  -webkit-transition-delay: 0s;
+  transition: all 0.2s ease-in-out 0s;
+  font-size: 12px;
+  line-height: 16px;
+}
+.ajax-search .results-box .result-title a {
+  font-size: 13px;
+}
+.ajax-search .results-box .clearfix {
+  margin: 4px 0;
+}
+.ajax-search .results-box dt, .ajax-search .results-box dd {
+  font-size: 12px;
+  line-height: 16px;
+}
+.ajax-search .results-box .result-created {
+  font-size: 80%;
+  font-style: italic;
+}
+.ajax-search .results-box .mod-ajaxsearch-results-footer {
+  background: #EEEEEE;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 4px 0;
+  text-align: center;
+  border-top: 1px solid #DDDDDD;
+}
+.ajax-search .results-box span.highlight {
+  padding: 0;
+  background-color: #fcf8e3;
+}
+.ajax-search .search-results {
+  padding: 6px;
+  margin: 0;
+}

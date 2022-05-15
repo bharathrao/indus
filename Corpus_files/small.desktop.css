@@ -1,0 +1,41 @@
+/*
+#------------------------------------------------------------------------
+# University - May Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2014 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+.gkPage {
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+}
+#gkHeaderRight {
+	right: 10px!important;
+}
+#gkHeaderLeft {
+	left: -4px!important;
+}
+.gkInformation > div > strong {
+	width: 20%;
+}
+.gkInformation > div > input {
+	width: 18%;
+}
+.gkNspPM-EventsList > div {
+	padding: 10px 15px;
+}
+.csstransforms #gkHeaderLeft .header + .content {
+	padding-left: 40px;
+}
+#gkHeaderBottom {
+	padding: 15px 0;
+}
+.gkIsWrapper-gk_university figcaption h2 { 
+	font-size: 48px;
+}
+.gkIsWrapper-gk_university figcaption p {
+	font-size: 14px;
+}

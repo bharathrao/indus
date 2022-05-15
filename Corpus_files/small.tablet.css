@@ -1,0 +1,137 @@
+/*
+#------------------------------------------------------------------------
+# University - May Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2014 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+#gkContentWrap,
+#gkInset {
+	padding-left: 0!important;
+	padding-right: 0!important;
+	width: 100%;
+}
+.itemsContainer .itemsContainerWrap, 
+.itemContainer .itemsContainerWrap {
+	margin: 0!important;	
+}
+.k2FeedIcon a, 
+a.k2FeedIcon {
+	margin-top: 32px;
+}
+.demo-typo-col2,
+.demo-typo-col3,
+.demo-typo-col4 {
+	clear: both;
+	float: none;
+	padding-bottom: 20px;
+	width: 100%;
+}
+#gkBottom1 .box.double,
+#gkBottom1 .box.double ~ .box,
+#gkBottom2 .box.double,
+#gkBottom2 .box.double ~ .box,
+#gkBottom3 .box.double,
+#gkBottom3 .box.double ~ .box,
+#gkBottom4 .box.double,
+#gkBottom4 .box.double ~ .box,
+#gkBottom5 .box.double,
+#gkBottom5 .box.double ~ .box {
+	width: 50%!important;
+}
+#gkBottom1.gkSingleModule .box,
+#gkBottom2.gkSingleModule .box,
+#gkBottom3.gkSingleModule .box,
+#gkBottom4.gkSingleModule .box,
+#gkBottom5.gkSingleModule .box {
+	width: 100%!important;
+}
+
+/* Frontpage elements */
+.gkTweets .gkTweet {
+	width: 50%!important;
+}
+.darkbar .nspList:first-child > li:first-child:after {
+	display: none;
+}
+.nspArts,
+.nspLinksWrap {
+	clear: both;
+	width: 100%!important;
+}
+.gk-newsletter p > span,
+.gk-newsletter p input {
+	display: block;
+	width: 100%!important;
+}
+.gkNspPM-JomSocialPhotos[data-cols="1"] figure,
+.gkNspPM-JomSocialPhotos[data-cols="2"] figure {
+	width: 340px!important;
+}
+.gkNspPM-JomSocialPhotos[data-cols="3"] figure {
+	width: 220px!important;
+}
+.gkNspPM-JomSocialPhotos[data-cols="4"] figure {
+	width: 180px!important;
+}
+.gkNspPM-EventsList time {
+	display: none;
+}
+.gkNspPM-EventsList > div > time + div {
+	padding-left: 0;
+}
+.gkInformation > div > strong {
+	padding: 30px 0 30px 50px;
+	width: 33.333333%;
+}
+.gkInformation > div > strong:before {
+	top: 20px;
+}
+.gkInformation > div input {
+	margin-bottom: 1%;
+	margin-left: 1%;
+	width: 32.333333%!important;
+}
+.gkContentImage + .gkContent {
+	padding: 0 0 0 30px;
+}
+
+@media (max-width: 660px) {
+    body #cc-notification h2, 
+    body #cc-notification h3, 
+    body #cc-notification p {
+        font-size: 12px!important;
+        margin-bottom:0!important;
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+
+    body #cc-notification h2 span, 
+    body #cc-notification h2 {
+        font-size: 12px!important;
+    }
+
+    body #cc-notification #cc-notification-wrapper {
+        padding: 10px 32px 0!important;
+    }
+
+    body #cc-notification ul.cc-notification-buttons {
+        clear: both!important;
+        width: 100%!important;
+        position: static!important;
+        text-align: center;
+    }
+
+    body #cc-notification ul.cc-notification-buttons li {
+        float: none!important;
+        display: inline-block;
+    }
+
+    body #cc-notification a, 
+    body #cc-notification a:visited {
+        font-size: 12px!important;
+    }
+}
